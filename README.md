@@ -1,70 +1,12 @@
-# Getting Started with Create React App
+--MARKETPLACE DE NFT COMPLETO---
+//ESPAÑOL//
+¡Buenos días! hoy traigo un código en el que os muestro el desarrollo completo de una Dapp desplegada en Rinkeby, en este caso un Marketplace de NFTs. El diseño y desarrollo web ha sido mediante React. Primero he diseñado unas imágenes en Canva, las cuales serán nuestros tokens ERC721 (NFTs). He utilizado el servidor descentralizado en IPFS de Piñata, para subir ahí nuestras imágenes junto a su METADATA (Formato .json identificado con su dirección de IPFS donde se almacena la imagen). Este paso es muy importante! es lo que aporta el valor real a nuestro NFT. Después he programado el Smart Contract en Remix y lo he desplegado en la Blockchain de Rinkeby (ya que así también podemos ver nuestros NFTs en Opensea Testnet, Rarible…).
+He utilizado la librería de Javascript Web3.js para la conexión de nuestra interface de React con el back end de nuestro Smart contract. Para finalizar, como el Marketplace requiere que veamos los tokens que tenemos en nuestra wallet en directo, he usado la librería de JS Axios, para las llamadas a la API de Etherscan ( con la data de nuestro Smart Contract y nuestro Token). Esto nos permite que según minteemos un token de nuestro Smart Contract, los datos de la Blockchain y la imagen aparezcan automáticamente en nuestra Dapp, junto con el address de su dueño.
+Podeis ver el video con el proyecto funcionando en : 
+https://www.linkedin.com/posts/jose-campoo-olalla-1a3121ab_nft-nftmarketplace-solidity-activity-6930848656556220417-WqlH?utm_source=linkedin_share&utm_medium=member_desktop_web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+//ENGLISH//
+Hello! Today I bring a code where I show you the complete development of a Dapp running in Rinkeby. In this case a NFT Marketplace. The web design and the interface has been through React. First I have designed some pictures in Canva, which will be our ERC721 tokens (NFTs). I’ve used the decentralized IPFS server, Piñata, to upload our images there along with their METADATA (.json format identified with its IPFS link where the image is stored). This step is very important! it is what brings the real value to our NFT. Then I have programmed the Smart Contract in Remix and I deployed it in the Rinkeby Blockchain (because in Rinkeby testnetwork we can see our NFTs in Opensea Testnet, Rarible… and that’s really cool!). I have used the Web3.js Javascript library to connect our React interface with the back end of our Smart contract. Finally, as the Marketplace requires that we can see the tokens that we have in our wallet, I have used the JS library called Axios, for make the calls to the Etherscan API (with the data of our Smart Contract and our Token). This allows us, when we mint a token in our Smart Contract, the Blockchain data and the picture automatically appears in our Dapp. Also we can see the owner of the NFT.
+You can see the Marketplace video in this link:
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://www.linkedin.com/posts/jose-campoo-olalla-1a3121ab_nft-nftmarketplace-solidity-activity-6930848656556220417-WqlH?utm_source=linkedin_share&utm_medium=member_desktop_web
